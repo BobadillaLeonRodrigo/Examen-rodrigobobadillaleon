@@ -1,6 +1,10 @@
+/*
+Importamos api de la url proporcionada. 
+Referencia anterior https://reqres.in/api/users&quot 
+Referencia Actual https://reqres.in/api
+*/
 import axios from "axios";
-//Importamos api de la url proporcionada
 export const ReqRestApi = axios.create({
-    baseURL: `https://reqres.in/api/users&quot`
+    baseURL: `https://reqres.in/api`
 });
 export default ReqRestApi
